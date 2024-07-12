@@ -1,0 +1,207 @@
+@font-face
+{
+font-family: sanxing;
+src: url('./fontfamily/Samsung\ Sharp\ Sans\ Bold.woff.ttf');  
+}
+@font-face
+{
+font-family: apple;
+src: url('./fontfamily/PingFang\ Bold.ttf');  
+}
+.p45{
+    position: relative;
+    z-index: 10;
+    min-height: 40vh;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(245,245,245);
+}
+.p45t1{
+    font-family: sanxing, Microsoft YaHei;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 0.8;
+}
+.p45t2{
+    line-height: 0.8;
+    font-family: sanxing, Microsoft YaHei;
+    font-weight: 900;
+    font-size: 5vw;
+}
+.p45 .box {
+    padding-top: 10vh;
+    text-align: center;
+    justify-content: end;
+    bottom:0;
+}
+.p5 {
+    position: relative;
+    z-index: 10;
+    height: 48vw;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(245,245,245);
+    background-image: url("./pages/galaxy-s22-ultra_highlights_pro-grade.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.p6 {
+    position: relative;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    margin-top: -15vh;
+    background-color: rgb(0,0,0);
+}
+:root {
+  --offset: 6px;
+}
+.p6 .box {
+  display: flex;
+  text-align: center;
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+.p6 h4 {
+  width: 980px;
+  font-size: 100px;
+  font-family: sanxing;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: rgb(245,245,245);
+}
+.p6 .box{
+  display: flex;
+  justify-content: center;
+  
+}
+.p6 span2 {
+  
+  position: relative;
+  margin-left: -1100px;
+  
+}
+.mask {
+  height: 187px;
+  position: relative;
+  overflow: hidden;
+  margin-top: var(--offset);
+}
+.pingyi {
+  margin-left: -20px;
+  margin-top: -160px;
+}
+.mask span1 {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  top: 160px;
+  padding-bottom: var(--offset);
+  
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+}
+.mask .text3{
+  font-size:135px;
+}
+.mask span1[data-show] {
+  transform: translateY(-100%);
+  transition: .5s transform ease-in-out;
+}
+
+.mask span1[data-up] {
+  transform: translateY(-200%);
+  transition: .5s transform ease-in-out;
+}
+
+.mask span1:nth-child(1) {
+  background-image: linear-gradient(45deg, rgb(245, 245, 245) 50%, rgb(150, 150, 150));
+}
+
+.mask span1:nth-child(2) {
+  background-image: linear-gradient(90deg, 
+    rgba(47,161,183, 0.9) 0%,
+    rgb(81,153,218) 27%, 
+    rgba(182,114,217, 1) 54%, 
+    rgba(246,90,172, .8) 77%, 
+    rgba(238,66,86, 0.8) 100%) ;
+}
+
+.mask span1:nth-child(3) {
+  margin-top: 2.6vh;
+  margin-left: -1vw;
+  background-image: linear-gradient(45deg, rgb(245,245,245) 50%, rgba(245,245,245,.75));
+}
+
+.cam {
+    display: flex;
+    justify-content: center;
+    margin-top: -10vh;
+}
+.p65 {
+  position: relative;
+    z-index: 10;
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.p7 {
+    position: relative;
+    justify-content: center;
+    z-index: 10;
+    height: 75vh;
+    width: 100%;
+    font-size: 3vw;
+    font-weight: bolder;
+    font-family: sanxing, apple;
+    background-color: rgb(245, 245, 245);
+}
+
+.p7 .backimg {
+  border-radius: 50px;
+    z-index: 20;
+    position: relative;
+    justify-content: center;
+    margin-left: 17vw;
+    width: 66vw;
+    height: 28vw;
+    background-image: url("./pages/galaxy-s22_banner_why-galaxy.jpg");
+    background-repeat: no-repeat;
+}
+.p7 span {
+  z-index: 300;
+  display: flex;
+  padding-top: 10vh;
+  padding-left: 5vw;
+}
+.p7 p {
+  z-index: 300;
+  display: flex;
+  padding-left: 5vw;
+  margin-top:0vh;
+  font-size: 4vw;
+}
+
+.p7 a {
+  background-color: black;
+  border-radius: .6rem;
+  padding-left: 1.6vw;
+  padding-top: 0.8vw;
+  padding-bottom: 0.8vw;
+  padding-right: 1.6vw;
+  color: rgb(245, 245, 245);
+  text-decoration:none;
+  margin-left: 6vw;
+  font-size: .9vw;
+}
+
+.p7 a:hover {
+  background-color: rgb(200, 200, 200);
+  color: rgb(20, 20, 20);
+  transition: .3s ease;
+  
+}
+

@@ -1,0 +1,233 @@
+@font-face
+{
+font-family: sanxing;
+src: url('../fontfamily/Samsung\ Sharp\ Sans\ Bold.woff.ttf');  
+}
+@font-face
+{
+font-family: apple;
+src: url('../fontfamily/PingFang\ Bold.ttf');  
+}
+
+nav{
+    font-family: sanxing;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 10000;
+    background-color: rgba(0,0,0, 60%);
+    border-bottom: 1px solid rgb(61,61,61);
+}
+
+nav .left123 {
+    
+    font-size: 1.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    color: aliceblue;
+}
+.left123 a {
+    text-decoration: none;
+    color: rgb(245,245,245);
+}
+nav ul ul{
+    
+    align-items: center;
+    font-size: 20px;
+   text-decoration: none;
+   z-index: 1;
+   height: inherit;
+   line-height: 70px;
+   width: 80px;
+   font-weight: bolder;
+   color: rgba(255, 255, 255, 0.51);
+   display:none;
+   list-style-type: none;
+   border-radius: 8px;
+    backdrop-filter: blur(6px);
+    background: rgba(240, 239, 240, 0.64);
+}
+nav ul div:hover+ul{
+    display:block;
+}
+nav ul ul:hover{
+    display:block;
+}
+
+ul li a {
+    text-decoration:none;
+    color: rgb(245,245,245);
+}
+ul li a:hover{
+    color: rgb(0,113,227);
+    transition: .3s ease;
+}
+
+nav .r1{
+    
+    display: flex;
+    align-items: center;
+    font-family: apple;
+    font-weight: bold;
+    padding-left: 40vw;
+    font-size: 1.2vw;
+    color: aliceblue;
+}
+nav .r2{
+    display: flex;
+    align-items: center;
+    font-family: apple;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-left: -8vw;
+    color: aliceblue;
+}
+nav .r3{
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    font-family: apple;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-left: -8vw;
+    color: aliceblue;
+}
+
+.r1 a {
+    text-decoration:none;
+    color: rgb(245,245,245);
+}
+.r1 a:hover{
+    color: rgb(0,113,227);
+    transition: .3s ease;
+}
+.r2 a {
+    text-decoration:none;
+    color: rgb(245,245,245);
+}
+.r2 a:hover{
+    color: rgb(0,113,227);
+    transition: .3s ease;
+}
+.r3 a {
+    font-size: .8vw;
+    padding-left: .8vw;
+    padding-right: .8vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    color:rgb(245,245,245);
+    background-color: rgb(0,113,227);
+    border-radius: 25px;
+    text-decoration:none;
+}
+.r3 a:hover{
+    background-color: rgb(0, 104, 207);
+    transition: .2s ease;
+}
+.space {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    margin-top: 16vh;
+}
+.picture1 {
+    float: left;
+    position: sticky;
+    top: 0;
+    margin-left: 18vw;
+}
+
+h1 {
+    font-family: sanxing;
+    font-size: 2.4vw;
+    
+}
+
+table {
+    font-family: sanxing;
+    text-align: center;
+    
+}
+td
+{
+    width:15vw;
+	border:2px solid rgba(0,0,0,.3);
+    border-radius: 15px;
+    height: 10vh;
+    border-collapse: collapse;
+}
+
+tr {
+    display: block;
+    margin-left: 3vw;
+}
+
+tr :hover {
+    border:2px solid rgb(33,137,255);
+}
+
+p a {
+    float: right;
+    margin-right: 14vw;
+    margin-top:5vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: apple;
+    font-size: 1.4vw;
+    background-color: rgb(33,137,255);
+    color: rgb(245,245,245);
+    border-radius: 30px;
+    text-decoration: none;
+}
+p a:hover {
+    background-color: rgb(0, 104, 207);
+    transition: .2s ease;
+}
+.sidebar{
+    height: 42%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden;
+    margin-top: 40vh;
+	width:130px;
+	background-color: rgba(61,61,61, 0.6);
+    transition: 0.5s;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+.tab{
+    font-family: apple;
+    margin-top: 40px;
+    margin-left: 15px;
+    text-align: center;
+	height:50px;
+	width:100px;
+	background: rgba(245,245,245);
+	line-height: 50px; 
+	border-radius:10px;
+}
+
+.navto-nav{
+    font-family: apple;
+    margin-top: 40px;
+    margin-left: 15px;
+	height:50px;
+	width:100px;
+    text-align: center;
+	background: rgba(245,245,245);
+	line-height: 50px;
+	border-radius:10px;
+}
+
+

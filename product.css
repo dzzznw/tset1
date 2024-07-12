@@ -1,0 +1,268 @@
+@font-face
+{
+font-family: sanxing;
+src: url('./fontfamily/Samsung\ Sharp\ Sans\ Bold.woff.ttf');  
+}
+@font-face
+{
+font-family: apple;
+src: url('./fontfamily/PingFang\ Bold.ttf');  
+}
+main{
+    font-family: apple;
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+ background-color: rgb(245,245,245);
+}
+
+
+nav{
+    font-family: sanxing;
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    z-index: 10000;
+    background-color: rgba(0,0,0, 60%);
+    border-bottom: 1px solid rgb(61,61,61);
+}
+
+nav .left123 {
+    
+    font-size: 1.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    color: aliceblue;
+}
+nav ul ul{
+    
+    align-items: center;
+    font-size: 20px;
+   text-decoration: none;
+   z-index: 1;
+   height: inherit;
+   line-height: 70px;
+   width: 80px;
+   font-weight: bolder;
+   color: rgba(255, 255, 255, 0.51);
+   display:none;
+   list-style-type: none;
+   border-radius: 8px;
+    backdrop-filter: blur(6px);
+    background: rgba(240, 239, 240, 0.64);
+}
+nav ul div:hover+ul{
+    display:block;
+}
+nav ul ul:hover{
+    display:block;
+}
+
+ul li a {
+    text-decoration:none;
+    color: rgb(245,245,245);
+}
+ul li a:hover{
+    color: rgb(0,113,227);
+    transition: .3s ease;
+}
+
+nav .r1{
+    
+    display: flex;
+    align-items: center;
+    font-family: apple;
+    font-weight: bold;
+    padding-left: 40vw;
+    font-size: 1.2vw;
+    color: aliceblue;
+}
+nav .r2{
+    display: flex;
+    align-items: center;
+    font-family: apple;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-left: -8vw;
+    color: aliceblue;
+}
+nav .r3{
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    font-family: apple;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-left: -8vw;
+    color: aliceblue;
+}
+
+.r1 a {
+    text-decoration:none;
+    color: rgb(245,245,245);
+}
+.r1 a:hover{
+    color: rgb(0,113,227);
+    transition: .3s ease;
+}
+.r2 a {
+    text-decoration:none;
+    color: rgb(245,245,245);
+}
+.r2 a:hover{
+    color: rgb(0,113,227);
+    transition: .3s ease;
+}
+.r3 a {
+    font-size: .8vw;
+    padding-left: .8vw;
+    padding-right: .8vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    color:rgb(245,245,245);
+    background-color: rgb(0,113,227);
+    border-radius: 25px;
+    text-decoration:none;
+}
+.r3 a:hover{
+    background-color: rgb(0, 104, 207);
+    transition: .2s ease;
+}
+
+
+.p1t2 {
+    font-family: sanxing !important;
+    font-weight: bold;
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 4.4vw; 
+}
+.p1t3 {
+    font-family: sanxing;
+    display: flex;
+    margin:-1vmax auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vw; 
+}
+main img {
+    display: flex;
+    padding-left: 10%;
+    
+}
+
+.p2 {
+    margin-top: -15px;
+    font-family: apple;
+  position: relative;
+  z-index: 10;
+  min-height: 110vh;
+  width: 100%;
+  justify-content: center;
+ background-color: rgb(245,245,245);
+}
+
+.p2 .t1 {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 65rem;
+    overflow: hidden;
+    
+}
+.p2 .t2 {
+    justify-content:center;
+    padding-left: 20vw;
+    margin-top: -60vh;
+    font-size: 3vw;
+    line-height: 1.17;
+    display: flex;
+    color: #000;
+    font-family: sanxing;
+    font-weight: bold !important;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    
+    animation: .3s swift-up ease-in-out forwards;
+}
+.p2 .t3{
+    padding-left: 53.5vw;
+    font-size: 3vw;
+    line-height: 1.17;
+    display: flex;
+    color: #000;
+    font-family: sanxing;
+    font-weight: bold !important;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    top: 1.3rem;
+    animation: .2s swift-up ease-in-out forwards;
+}
+.p2 .t4{
+    padding-left: 53.5vw;
+    font-size: 3vw;
+    line-height: 1.17;
+    display: flex;
+    color: #000;
+    font-family: sanxing;
+    font-weight: bold !important;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    top: 1.3rem;
+    animation: .2s swift-up ease-in-out forwards;
+}
+.p2 .p1{
+    padding-left: 53.5vw;
+    width: 23vw;
+    font-size: 1vw;
+    line-height: 2;
+    display: flex;
+    color: rgb(110,110,115);
+    font-family: sanxing;
+    font-weight: bold !important;
+    white-space: normal;
+    word-wrap: break-word;
+    
+  
+}
+i {
+    font-style: normal;
+    position: relative;
+    top: 4.3rem;
+    
+}
+.p2:hover>.t1{
+    animation: .8s swift-up ease-in-out forwards;
+}
+.p2:hover>div>i{
+    animation: .4s swift-up ease-in-out forwards;
+}
+.p2 div i {
+    background-image: linear-gradient(100deg, 
+    rgb(47,161,183) 0%,
+    rgb(73,155,210) 33.33%, 
+    rgba(101,145,235, 1) 66.67%,  
+    rgba(176,116,221, 1) 100%);
+    background-position-x: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+  color: transparent;
+}
+@keyframes swift-up {
+    to {
+        top: 0rem;
+    }
+}

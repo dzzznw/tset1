@@ -1,0 +1,152 @@
+@font-face
+{
+font-family: sanxing;
+src: url('./fontfamily/Samsung\ Sharp\ Sans\ Bold.woff.ttf');  
+}
+@font-face
+{
+font-family: apple;
+src: url('./fontfamily/PingFang\ Bold.ttf');  
+}
+
+.p3 {
+    font-family: apple;
+  position: relative;
+  z-index: 10;
+  min-height: 90vh;
+  width: 100%;
+  justify-content: center;
+ background-color: rgb(245,245,245);
+}
+ 
+ul  {
+    list-style: none;
+}
+body {
+    font-family: Microsoft YaHei;
+}
+.all{
+    height: 510px;
+}
+.head1  {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.head1 ul{
+    float: left;
+}
+.head1 ul li{
+
+    width: 2.3vw;
+    height: 2.3vw;
+    margin-top: 1vw;
+    
+    list-style: none;
+    border: 2px solid;
+    color:#666;
+    text-align: center;
+    float: left;
+    border-radius:80%;
+}
+
+.active{
+    background-color:#000000;
+}
+.active2{
+    background-color:rgb(88,120,118);
+}
+.active3{
+    background-color:rgb(101,77,88);
+}
+.active4{
+    background-color:rgb(233,233,231);
+}
+
+.main1 {
+    width: 65vw;
+    height:40vw;
+    display: flex;
+    
+    overflow: hidden;
+}
+.banner {
+    width: 65vw;
+    height:40vw;
+    overflow: hidden;
+    position: relative;
+}
+.banner-slide{
+    width: 65vw;
+    height:40vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+}
+.slide-active{
+    display: block;
+}
+.slide1{
+    background-image: url("./pages/black.png");
+    background-size: contain;
+}
+.slide2{
+    background-image: url("./pages/green.png");
+    background-size: contain;
+}
+.slide3{
+    background-image: url("./pages/purple.png");
+    background-size: contain;
+}
+.slide4{
+    background-image: url("./pages/white.png");
+    background-size: contain;
+}
+.pt1 {
+    font-family: sanxing;
+    display: flex;
+    margin:0 auto;
+    padding-top: 5vmax;
+    margin-bottom: -2.2vmax;
+    font-size: 2.5vw;  
+    font-weight: 900;
+    letter-spacing: -0.1rem;
+    justify-content: center;
+    background-image: linear-gradient(100deg, 
+    rgb(0, 217, 255) 0%,
+    rgb(63, 216, 243) 30%, 
+    rgba(182,114,217, 1) 50%, 
+    rgba(246,90,172, 1) 60%, 
+    rgba(237,62,71, 1) 80%) ;
+    background-position-x: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+  color: transparent;
+}
+
+.p3t1 {
+    font-family:apple;
+    display: flex;
+    margin:0 auto;
+    padding-top: 5vmax;
+    margin-bottom: -2.2vmax;
+    font-size: 5vw;
+    font-weight: border;
+    letter-spacing: -0.1rem;
+    justify-content: center;
+    
+}
+.p3t11 {
+    background-image: linear-gradient(90deg, 
+    rgba(47,161,183, 0.9) 0%,
+    rgb(81,153,218) 27%, 
+    rgba(182,114,217, 1) 54%, 
+    rgba(246,90,172, .8) 77%, 
+    rgba(238,66,86, 0.8) 100%) ;
+    background-position-x: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+  color: transparent;
+}
+
+

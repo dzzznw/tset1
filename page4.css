@@ -1,0 +1,36 @@
+@font-face
+{
+font-family: sanxing;
+src: url('./fontfamily/Samsung\ Sharp\ Sans\ Bold.woff.ttf');  
+}
+@font-face
+{
+font-family: apple;
+src: url('./fontfamily/PingFang\ Bold.ttf');  
+}
+
+.p4 {
+    margin-top: -3vh;
+    position: relative;
+  z-index: 10;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(245, 245, 245);
+}
+
+.p4 h6 {
+  --progress: 0;
+  color: transparent;
+  width: 420px;
+  margin: 0 auto;
+  font-size: 60px;
+  font-family: sanxing;
+  letter-spacing: -1px;
+  background-image: linear-gradient(rgba(110, 110, 115, .6) calc(100% - calc(var(--progress) * 100%)), #4cd265 calc(100% - calc(var(--progress) * 100%)));
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: scale(clamp(1.3, calc((var(--progress) - 0.99) * 200), 1.6));
+  transition: .3s transform ease-out;
+}
